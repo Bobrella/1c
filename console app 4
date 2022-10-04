@@ -1,0 +1,16 @@
+namespace WinFormsApp2
+{
+      class Program
+    {
+       
+        
+        static void Main()
+        {
+            string name = string.Parse(Console.ReadLine());
+            int age = int.Parse(Console.ReadLine());
+            string favoriteActivity = string.Parse(Console.ReadLine());
+            int year = 2022 - age;
+            Console.WriteLine("Вас зовут" + "_" + name + "_" + "вы" + "_" + year + "_" + "года рождения, ваше любимое занятие" + "-" + favoriteActivity);
+            Console.ReadKey(); 
+        }
+    }

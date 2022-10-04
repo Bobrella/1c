@@ -1,0 +1,22 @@
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp2
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            int time = 15;
+            Console.WriteLine("введите сколько человек в очереди");
+             int queue = int.Parse(Console.ReadLine());
+            int timeToOver = queue * time;
+            Console.WriteLine(timeToOver + "_" + "минут");
+            Console.ReadKey();
+        }
+    }
+}
